@@ -20,7 +20,7 @@ class ActivitiesController extends AbstractController
     {
         $response = $this->client->request(
             'GET',
-            'https://www.strava.com/api/v3/athlete/activities?access_token=8db47da3303bdad6dc7ecac3a6c28b8120217ffe'
+            'https://www.strava.com/api/v3/athlete/activities?access_token=86d3983fb7adaa62821c885826204dfd24df1bf4'
         );
 
         $statusCode = $response->getStatusCode();

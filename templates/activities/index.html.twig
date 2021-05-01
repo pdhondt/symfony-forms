@@ -17,4 +17,12 @@
         <li>Your template at <code><a href="{{ '/var/www/becode/symfony-forms/templates/activities/index.html.twig'|file_link(0) }}">templates/activities/index.html.twig</a></code></li>
     </ul>
 </div>
+
+    <div>
+        <ul>
+            <li>{{ activities[0]['name'] }}</li>
+            <li>{{ activities[0]['distance'] }}</li>
+            <li>{{ activities[0]['start_date_local'] }}</li>
+        </ul>
+    </div>
 {% endblock %}
